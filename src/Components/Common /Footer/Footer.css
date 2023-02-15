@@ -1,0 +1,138 @@
+.footer-sec-1 {
+  background-color: rgb(252, 252, 252);
+  padding: 30px 0;
+}
+
+.sec-1-rows {
+  margin-top: -10px;
+}
+
+.sec-1-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 8px;
+  background-color: var(--primary-bg);
+  margin-bottom: 20px;
+  color: var(--heading-text);
+}
+
+.row-text {
+  font-size: 22px;
+}
+
+.row-arrow {
+  font-size: 23px;
+}
+
+.footer-sec-2 {
+  background-color: var(--inactive-color);
+}
+
+.sec-2-body {
+  padding: 50px 15px 22px;
+}
+
+.footer-logo-location {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-logo {
+  height: 28px;
+  width: 132px;
+}
+
+.footer-logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-location-language {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  height: 42px;
+  margin-bottom: 40px;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  padding: 3px 7px;
+  height: 100%;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 6px;
+  color: var(--heading-text);
+  font-size: 20px;
+}
+
+.footer-text {
+  margin: 0 3px 0 10px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.col-head {
+  color: #000000;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.col-text {
+  color: rgb(105, 105, 105);
+  margin: 5px 0;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+}
+
+.footer-social-links {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.footer-social-links > a {
+  margin-right: 8px;
+}
+
+.footer-app-image {
+  width: 137px;
+  height: 40px;
+  border-radius: 6px;
+  margin-bottom: 13px;
+}
+
+.footer-app-image > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.footer-separator {
+  border-bottom: 0.5px solid lightgray;
+  margin: 20px 0 10px;
+}
+
+.footer-terms {
+  font-size: 15px;
+  color: rgb(79, 79, 79);
+  margin: 23px 0 18px;
+  letter-spacing: 0.3px;
+}

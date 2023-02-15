@@ -1,0 +1,34 @@
+.delivery-collection {
+  background-color: var(--inactive-color);
+}
+
+.delivery-collection-container {
+  padding: 5px 0px 35px 0px;
+}
+
+.delivery-item-cover {
+  height: 190px;
+  width: 260px;
+  background-color: var(--primary-bg);
+  border-radius: 10px;
+}
+
+.delivery-item-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.delivery-item-title {
+  color: rgb(54, 54, 54);
+  font-size: 22px;
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: rgb(155, 153, 153);
+}

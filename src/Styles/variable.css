@@ -1,0 +1,21 @@
+:root {
+  --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  --border-white: rgb(232, 232, 232);
+  --primary-bg: white;
+  --zomato-grey: #828282;
+  --zomato-red: rgb(255, 126, 139);
+  --inactive-text: #696969;
+  --inactive-color: rgb(248, 248, 248);
+  --filter-text: #9c9c9c;
+  --heading-text: rgb(28, 28, 28);
+  --tag-red: rgb(217, 38, 98);
+  --tag-blue: rgb(37, 111, 239);
+  --tag-green: rgb(36, 150, 63);
+  --subtitle-text: rgb(54, 54, 54);
+  --bg-gradient: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+}

@@ -1,0 +1,149 @@
+.explore-card {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+.explore-card-cover {
+  width: 328px;
+  height: 248px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.explore-card-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.delivery-time {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  font-size: 15px;
+  color: #363636;
+  padding: 2px 5px 3px;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.pro-off {
+  background-color: var(--tag-red);
+  color: var(--primary-bg);
+  position: absolute;
+  left: 0px;
+  bottom: 45px;
+  font-size: 14px;
+  padding: 2px 7px 2px;
+  border-radius: 0 2px 2px 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
+
+.discount {
+  background-color: var(--tag-blue);
+  color: var(--primary-bg);
+  position: absolute;
+  left: 0px;
+  bottom: 14px;
+  font-size: 14px;
+  padding: 2px 7px 2px;
+  border-radius: 0 2px 2px 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
+
+.gold-off {
+  background-color: var(--tag-red);
+  color: var(--primary-bg);
+  position: absolute;
+  left: 0px;
+  bottom: 14px;
+  font-size: 14px;
+  padding: 2px 7px 2px;
+  border-radius: 0 2px 2px 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
+
+.res-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px 4px;
+}
+
+.res-name {
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 200px;
+  color: var(--heading-text);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.res-rating {
+  background-color: var(--tag-green);
+  border: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+.res-rating-icon {
+  margin-left: 3px;
+  font-size: 10px;
+}
+
+.res-cuisine {
+  max-width: 50%;
+  font-weight: 100;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.res-cuisine-tag {
+  color: var(--inactive-text);
+}
+
+.res-approx-price {
+  font-size: 15px;
+  color: var(--inactive-text);
+}
+
+.card-separator {
+  border-bottom: 0.5px solid var(--border-white);
+  margin: 13px 0 8px 0;
+}
+
+.explore-bottom {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.res-bottom-text {
+  font-size: 15px;
+  color: var(--inactive-text);
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 13px;
+}
+
+.explore-card:hover {
+  border: 1px solid var(--border-white);
+  box-shadow: 0px 0px 15px 3px rgb(32 32 32 / 10%);
+}

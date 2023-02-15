@@ -1,0 +1,11 @@
+@import "./Styles/CommonClasses.css";
+@import "./Styles/variable.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif, Arial;
+}
